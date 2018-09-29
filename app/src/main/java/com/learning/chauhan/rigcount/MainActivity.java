@@ -8,6 +8,8 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +17,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity{
     private static final String TAG = "MainActivity";
     private LineChart mChart;
+    FirebaseDatabase database = FirebaseDatabase.getInstance("https://rigcount-827b9.firebaseio.com/");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,14 @@ public class MainActivity extends AppCompatActivity{
         LineData data = new LineData(dataSets);
 
         mChart.setData(data);
+
+        writeOnDatabse();
+
+    }
+
+    private void writeOnDatabse() {
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Hello, World!");
 
     }
 }

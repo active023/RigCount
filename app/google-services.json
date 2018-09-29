@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1056599762747",
+    "firebase_url": "https://rigcount-827b9.firebaseio.com",
+    "project_id": "rigcount-827b9",
+    "storage_bucket": "rigcount-827b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056599762747:android:d47dcab2bbba55a6",
+        "android_client_info": {
+          "package_name": "com.learning.chauhan.rigcount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056599762747-6d7vlu1d6ntnrib3cao3tk24donloj5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning.chauhan.rigcount",
+            "certificate_hash": "01ca0fb99f084f58e1bd07b51902ff658726b874"
+          }
+        },
+        {
+          "client_id": "1056599762747-aop1d9c63vhp9krd0jmsnev4973mqpe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGJQHdYZINio1p_lobxXdPA3nHQy5ctYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056599762747-aop1d9c63vhp9krd0jmsnev4973mqpe4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
